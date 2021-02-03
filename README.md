@@ -1,6 +1,6 @@
 # Vim_Mouse_Kbd_AHK
 
-* Mouse Use Source by 4strid
+* Mouse Move Source by 4strid (https://github.com/4strid/vim_mouse_2.ahk)
 
 As many people knows, "Capslock" Key is not used many times for normal people.
 
