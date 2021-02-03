@@ -1,10 +1,10 @@
-# Vim_Mouse_Kbd_AHK
+# Vim_Mouse_Kbd_AHK with Capslock Key
 
 * Mouse Move Source by 4strid (https://github.com/4strid/vim_mouse_2.ahk)
 
 As many people knows, "Capslock" Key is not used many times for normal people.
 
-So, I made a simple vim-styled Mouse / Keyboard mapper for me.
+So, I made a simple vim-styled Mouse / Keyboard mapper with "Capslock".
 
 Below is the key guide.
 
