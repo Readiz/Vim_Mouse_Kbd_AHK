@@ -2,9 +2,9 @@
 
 * Mouse Move Source by 4strid (https://github.com/4strid/vim_mouse_2.ahk)
 
-As many people knows, "Capslock" Key is not used many times for normal people.
+As many people knows, `Capslock` Key is not used many times for normal people.
 
-So, I made a simple vim-styled Mouse / Keyboard mapper with "Capslock".
+So, I made a simple vim-styled Mouse / Keyboard mapper with `Capslock` KeyDown.
 
 Below is the key guide.
 
@@ -32,3 +32,19 @@ Capslock + I : PgUp
 Capslock + Y : Home
 Capslock + O : End
 ```
+
+And, Capslock key is not working anymore with below lines:
+```
+CapsLock::
++CapsLock:: ; Shift
+!CapsLock:: ; Alt
+^CapsLock:: ; Ctrl
+#CapsLock:: ; Win
+^!CapsLock:: ; Ctrl + Alt
+^!#CapsLock:: ; Ctrl + Alt + Win
+Return
+```
+
+If you don't want to disable `Capslock` Key, then please remove those lines.
+
+
